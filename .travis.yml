@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- stable
+deploy:
+  provider: heroku
+  api_key:
+    secure: hcorkDb5A00tCpYmrhdpIxQ8O43WdoP3wvJAAV+ZhMbTpQ+ZStpmcb17C8Yr7PZjSHg43hVfOgZrlJxw7GYnopjABzY+9ysYypVgQwR0bdDrBFv3v+SPFSR1zjWejrYBI7ut9pEUxU4oD/HDWh30C6mO4BDkWm5RDxKVoSVRgCIvAwMBoy001QQ2FI3BHulmpErTlonTKpGDPkTuLcYiONkUkyciHFZtUM6+a3T3n5oySTCmBdxkHxN3gc+qk8Arvz6its3nZiiK8MxHCm3eUCFdCNcqJlw1xzIgxRhGz3sKqKAejc4lX0Jzb/4nCSXxV29u3txVb537zy7ykpxkgp2eA4uXyF49DzIfJk6+hipZ9+bkh52Ia1EjD/PSIJcnEVZ/aGw0Zoy4Da+OwRVmve7H+QXvF/eJMNABS8qJMnmhgFsODIByZ36TDYs/3HyknZ4JJnujCGjtSmBlazLv8g67Zs4a/1qDVQftpo6uAbpFQ2Vz2xoBJIS1XpXm3n+RkiFL4qu1WEZk/gxmdJ4ljgD9sHp0U0YyZm7DpF3+fzzaRKGUQVPoil/JyYF0fcS0VwuOLvn1SEPoilHXkLblQTuW57Xsi8bqgmGZzKYof+ODviSaHOhx8INbSCGxg+PxnDGWYM7sq9Wd6w2K2C96M1iLFZDBfOZheYmxoNMxkco=
+  app: sfbrigade-slackin
+  on:
+    repo: sfbrigade/slackin
+    branch: production
